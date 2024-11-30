@@ -1,0 +1,14 @@
+Favorite Movies Exercises
+It's time to practice working with ordered and unordered lists. In the index.html file, you will find some existing markup.  Please add on to the markup to recreate the two lists in the following Message.
+
+Movies -> h1
+My Top 3 Movies: -> h2
+
+    1. Amadeus
+    2. Stand By Me
+    3. Amelie
+
+Other Good Movies: -> h2
+    * Alien
+    * Parasite
+    * Annie Hall
