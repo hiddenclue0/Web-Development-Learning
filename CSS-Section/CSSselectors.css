@@ -78,3 +78,15 @@ input[type="password"]{
 .post:nth-of-type(2n){
     background-color: #dfe8dc;
 }
+
+h2::first-letter{
+    font-size: 50px;
+    color: red;
+}
+
+p::first-line{
+    color: purple;
+}
+::selection{
+    background-color: #fcbf49;
+}
