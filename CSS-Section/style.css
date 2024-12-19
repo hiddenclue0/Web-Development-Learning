@@ -1,3 +1,12 @@
 h2{
     color: indigo;
+    background-color: plum;
+}
+button{
+    color: magenta;
+    background-color: cyan;
+}
+p{
+    color: rgb(177, 213, 105);
+    background: orange;
 }
