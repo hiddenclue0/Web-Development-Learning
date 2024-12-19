@@ -6,19 +6,22 @@ div{
 h1{
     width: 100px;
     padding-left: 90px;
+    margin: 0;
 }
 #zero{
     background-color: #FFC300;
+
     
 }
 #one{
     background-color: #FF5733;
     border-width: 5px;
-    border-color: #F1F0E8;
+    border-color: #11F0E8;
     border-style: solid;
     border-radius: 50px ;
     /* box-sizing: border-box; */
     padding-left: 50px;
+    /* margin: 30px; */
 }
 
 #two{
