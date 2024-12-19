@@ -1,8 +1,50 @@
 div{
     height: 300px;
-    width: 400px;
+    width: 300px;
 }
 
 h1{
+    width: 100px;
+    padding-left: 90px;
+}
+#zero{
+    background-color: #FFC300;
+    
+}
+#one{
+    background-color: #FF5733;
+    border-width: 5px;
+    border-color: #F1F0E8;
+    border-style: solid;
+    border-radius: 50px ;
+    /* box-sizing: border-box; */
+    padding-left: 50px;
+}
+
+#two{
+    background-color: #C70039;
+    border-width: 5px;
+    border-color: #9ABF80;
+    border-style: dotted;
+    border-radius: 10% ;
+}
+
+#three{
     height: 200px;
+    width: 300px;
+    background-color: #900C3F;
+    border-width: 5px;
+    border-color: #6A669D;
+    border-style: dashed;
+    border-radius: 10% 30% 50% 70%;
+}
+
+#four{
+    height: 300px;
+    width: 500px;
+    background-color:#1C325B;
+    border: 4px solid black;
+    border-left-style: dotted;
+    border-radius: 10px 100px / 120px;
+    
 }
