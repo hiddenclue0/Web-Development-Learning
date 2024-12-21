@@ -149,6 +149,7 @@ body {
 @media(min-width: 900px){
     .panel{
         flex-direction: row;
+        margin-top: 200px;
     }
     .pricing-plan{
         border-bottom: none;
