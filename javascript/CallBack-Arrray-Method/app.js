@@ -165,27 +165,27 @@
 //     console.log(Math.ceil(Math.random() * 6))
 // }, 2000);
 
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16];
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16];
 
-const oddFilter = numbers.filter((n) => n % 2 === 1);
-console.log(oddFilter);
+// const oddFilter = numbers.filter((n) => n % 2 === 1);
+// console.log(oddFilter);
 
-const evenFilter = numbers.filter((n) => n % 2 === 0);
-console.log(evenFilter);
+// const evenFilter = numbers.filter((n) => n % 2 === 0);
+// console.log(evenFilter);
 
 
-const oddMap = numbers.map((n) => n % 2 === 1);
-console.log(oddMap);
+// const oddMap = numbers.map((n) => n % 2 === 1);
+// console.log(oddMap);
 
-const evenMap = numbers.map((n) => n % 2 === 0);
-console.log(evenMap);
+// const evenMap = numbers.map((n) => n % 2 === 0);
+// console.log(evenMap);
 
-const odd= numbers.forEach(function(n){
-    if(n%2===1)
-        return n;
-});
-console.log(odd);
+// const odd= numbers.forEach(function(n){
+//     if(n%2===1)
+//         return n;
+// });
+// console.log(odd);
 
-const even = numbers.forEach((n) => n % 2 === 0);
-console.log(even);
-
+// const even = numbers.forEach((n) => n % 2 === 0);
+// console.log(even);
+ const allEvens = arr => arr.every(n => n%2 === 0)
