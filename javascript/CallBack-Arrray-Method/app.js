@@ -80,16 +80,29 @@
 //     console.log(movie.title, movie.score + "/100");
 // })
 
-const fullNames = [
-  { first: "Albus", last: "Dumbledore" },
-  { first: "Harry", last: "Potter" },
-  { first: "Hermione", last: "Granger" },
-  { first: "Ron", last: "Weasley" },
-  { first: "Rubeus", last: "Hagrid" },
-  { first: "Minerva", last: "McGonagall" },
-  { first: "Severus", last: "Snape" },
-];
+// const fullNames = [
+//   { first: "Albus", last: "Dumbledore" },
+//   { first: "Harry", last: "Potter" },
+//   { first: "Hermione", last: "Granger" },
+//   { first: "Ron", last: "Weasley" },
+//   { first: "Rubeus", last: "Hagrid" },
+//   { first: "Minerva", last: "McGonagall" },
+//   { first: "Severus", last: "Snape" },
+// ];
 
- const firstNames = fullNames.map(function(name){
-    return name.first;
-})
+//  const firstNames = fullNames.map(function(name){
+//     return name.first;
+// })
+
+const sum = (x,y) => {
+    return x+y;
+}
+
+console.log(sum(4,5));
+
+
+const rollDie = () =>{
+    return Math.ceil(Math.random() * 6);
+}
+
+
