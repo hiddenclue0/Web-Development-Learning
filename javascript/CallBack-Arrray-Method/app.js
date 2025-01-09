@@ -116,41 +116,54 @@
 
 // const even = (x) => x % 2 === 0;
 
-const movies = [
-  {
-    title: "Jakir",
-    score: 7,
-  },
-  {
-    title: "Hosen",
-    score: 6,
-  },
-  {
-    title: "Is",
-    score: 5,
-  },
-  {
-    title: "Here",
-    score: 4,
-  },
-  {
-    title: "TOday",
-    score: 3,
-  },
-  {
-    title: "For ",
-    score: 2,
-  },
-  {
-    title: "You",
-    score: 1,
-  },
-];
+// const movies = [
+//   {
+//     title: "Jakir",
+//     score: 7,
+//   },
+//   {
+//     title: "Hosen",
+//     score: 6,
+//   },
+//   {
+//     title: "Is",
+//     score: 5,
+//   },
+//   {
+//     title: "Here",
+//     score: 4,
+//   },
+//   {
+//     title: "TOday",
+//     score: 3,
+//   },
+//   {
+//     title: "For ",
+//     score: 2,
+//   },
+//   {
+//     title: "You",
+//     score: 1,
+//   },
+// ];
 
-const newMovie = movies.map(function (movie) {
-  return `${movie.title} - ${movie.score * 10}/100`;
-});
+// const newMovie = movies.map(function (movie) {
+//   return `${movie.title} - ${movie.score * 10}/100`;
+// });
 
-const impliciteNewMovie = movies.map(
-  (movie) => `${movie.title} - ${movie.score * 10}/100`
-);
+// const impliciteNewMovie = movies.map(
+//   (movie) => `${movie.title} - ${movie.score * 10}/100`
+// );
+
+
+console.log("Hello!! ")
+setTimeout(() =>{
+    console.log('are you here?')
+}, 1000)
+console.log("GoodBye")
+
+
+
+const id = setInterval(() => {
+    console.log(Math.ceil(Math.random() * 6))
+}, 2000);
