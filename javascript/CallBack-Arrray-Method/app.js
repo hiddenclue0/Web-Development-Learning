@@ -173,7 +173,6 @@
 // const evenFilter = numbers.filter((n) => n % 2 === 0);
 // console.log(evenFilter);
 
-
 // const oddMap = numbers.map((n) => n % 2 === 1);
 // console.log(oddMap);
 
@@ -188,4 +187,51 @@
 
 // const even = numbers.forEach((n) => n % 2 === 0);
 // console.log(even);
- const allEvens = arr => arr.every(n => n%2 === 0)
+//  const allEvens = arr => arr.every(n => n%2 === 0)
+
+const prices = [9.99, 1.5, 19.99, 49.99, 30.5];
+const totalPrice = prices.reduce((min, price) => {
+  if (min > price) return price;
+  else return min;
+});
+
+const movies = [
+  {
+    title: "Jakir",
+    score: 7,
+  },
+  {
+    title: "Hosen",
+    score: 6,
+  },
+  {
+    title: "Is",
+    score: 5,
+  },
+  {
+    title: "Here",
+    score: 4,
+  },
+  {
+    title: "TOday",
+    score: 3,
+  },
+  {
+    title: "For ",
+    score: 2,
+  },
+  {
+    title: "You",
+    score: 1,
+  },
+];
+
+const best = movies.reduce((bestMovie, currentMovie) => {
+  if (bestMovie.score < currentMovie.score) {
+    return currentMovie;
+  } else {
+    return bestMovie;
+  }
+});
+
+const evens = arr => arr.reduce((sum, x) => sum+x, 1000);
