@@ -60,13 +60,22 @@
 //     }
 // };
 
-const cat = {
-    name: "Tom",
-    color: "black",
-    breed: "Scottish Fold",
-    meow(){
-        console.log(`${this.name} says MEOWWW`)
+// const cat = {
+//     name: "Tom",
+//     color: "black",
+//     breed: "Scottish Fold",
+//     meow(){
+//         console.log(`${this.name} says MEOWWW`)
+//     }
+// }
+
+// const meow2 = cat.meow;
+
+const hen = {
+    name : 'Helen',
+    eggCount : 0,
+    layAnEgg(){
+        this.eggCount++;
+        return "EGG";
     }
 }
-
-const meow2 = cat.meow;
