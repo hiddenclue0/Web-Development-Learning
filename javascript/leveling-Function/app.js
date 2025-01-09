@@ -71,11 +71,28 @@
 
 // const meow2 = cat.meow;
 
-const hen = {
-    name : 'Helen',
-    eggCount : 0,
-    layAnEgg(){
-        this.eggCount++;
-        return "EGG";
+// const hen = {
+//     name : 'Helen',
+//     eggCount : 0,
+//     layAnEgg(){
+//         this.eggCount++;
+//         return "EGG";
+//     }
+// }
+
+
+try {
+    hello.toUpperCase();
+} catch{
+    console.log("ERROR!!!");
+}
+
+function yell(msg){
+    try{
+        console.log(msg.toUpperCase().repeat(5));
+    }
+    catch(e){
+        console.log(e);
+        console.log("Please Pass a String");
     }
 }
