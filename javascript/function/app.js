@@ -1,5 +1,5 @@
-// let randomNumber = Math.ceil(Math.random() * 10);
-// console.log(randomNumber);
+let randomNumber = Math.ceil(Math.random() * 10);
+console.log(randomNumber);
 
 function singSong() {
   return( Math.ceil(Math.random() * 6));
@@ -30,3 +30,22 @@ function lastElement(array){
         return arr[array.length-1];
     }
 }
+
+const creature = "Common Sea Dragon";
+ 
+function scubaDive(){
+    const creature = "Spanish Dancer"; //A type of sea slug
+    console.log(creature);
+}
+ 
+scubaDive();
+
+let deadlyAnimal = "Blue-Ringed Octopus";
+ 
+function handleAnimal() {
+    let deadlyAnimal = "Scorpionfish";
+    console.log(deadlyAnimal);
+}
+ 
+handleAnimal();
+console.log(deadlyAnimal)
