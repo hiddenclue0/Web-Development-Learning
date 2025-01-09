@@ -21,3 +21,12 @@ for(let i=1; i<=6; i++){
 
 console.log(sum);
 console.log("max = " + mx + " Pos: " + pos);
+
+function lastElement(array){
+    if(array.length === 0){
+        return null;
+    }
+    else{
+        return arr[array.length-1];
+    }
+}
