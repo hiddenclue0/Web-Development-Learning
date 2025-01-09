@@ -50,12 +50,23 @@
 // const isSenior = makeBetweenFunc(65, 120);
 
 
-const myMath = {
-    PI: 3.12159,
-    square: function(num){
-        return num*num;
-    },
-    cube: function(num){
-        return num ** 3;
+// const myMath = {
+//     PI: 3.12159,
+//     square: function(num){
+//         return num*num;
+//     },
+//     cube: function(num){
+//         return num ** 3;
+//     }
+// };
+
+const cat = {
+    name: "Tom",
+    color: "black",
+    breed: "Scottish Fold",
+    meow(){
+        console.log(`${this.name} says MEOWWW`)
     }
-};
+}
+
+const meow2 = cat.meow;
