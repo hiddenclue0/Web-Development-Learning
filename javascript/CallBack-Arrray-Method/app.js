@@ -106,12 +106,51 @@
 
 // const greet = (name) =>{
 //     return "Hey " + name + "!";
-// }
+//  }
 
-const rollDie = () => Math.ceil(Math.random() * 6);
+// const rollDie = () => Math.ceil(Math.random() * 6);
 
-const add = (x, y) => x + y;
+// const add = (x, y) => x + y;
 
-const rollDies = () => Math.ceil(Math.random() * 6);
+// const rollDies = () => Math.ceil(Math.random() * 6);
 
-const even = (x) => x % 2 === 0;
+// const even = (x) => x % 2 === 0;
+
+const movies = [
+  {
+    title: "Jakir",
+    score: 7,
+  },
+  {
+    title: "Hosen",
+    score: 6,
+  },
+  {
+    title: "Is",
+    score: 5,
+  },
+  {
+    title: "Here",
+    score: 4,
+  },
+  {
+    title: "TOday",
+    score: 3,
+  },
+  {
+    title: "For ",
+    score: 2,
+  },
+  {
+    title: "You",
+    score: 1,
+  },
+];
+
+const newMovie = movies.map(function (movie) {
+  return `${movie.title} - ${movie.score * 10}/100`;
+});
+
+const impliciteNewMovie = movies.map(
+  (movie) => `${movie.title} - ${movie.score * 10}/100`
+);
