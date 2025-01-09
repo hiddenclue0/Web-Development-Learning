@@ -94,15 +94,18 @@
 //     return name.first;
 // })
 
-const sum = (x,y) => {
-    return x+y;
+// const sum = (x,y) => {
+//     return x+y;
+// }
+
+// console.log(sum(4,5));
+
+
+// const rollDie = () =>{
+//     return Math.ceil(Math.random() * 6);
+// }
+
+
+const greet = (name) =>{
+    return "Hey " + name + "!";
 }
-
-console.log(sum(4,5));
-
-
-const rollDie = () =>{
-    return Math.ceil(Math.random() * 6);
-}
-
-
