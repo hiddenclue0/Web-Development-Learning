@@ -247,11 +247,59 @@
 //     }
 // }
 
-function rolldie(num = 6){
-    return Math.ceil(Math.random() * num);
-}
+// function rolldie(num = 6){
+//     return Math.ceil(Math.random() * num);
+// }
 
-function greet(msg = 'Hey there', person='friend') {
-    console.log(`${msg}, ${person}`)
+// function greet(msg = 'Hey there', person='friend') {
+//     console.log(`${msg}, ${person}`)
 
-}
+// }
+
+
+
+
+const prices = [9.99, 1.5, 19.99, 49.99, 30.5];
+
+let mx = Math.max(...prices);
+let mn = Math.min(...prices);
+console.log(...prices);
+
+const cats = ['Blue', 'Scout', 'Rocket'];
+const dogs = ['Rusty', 'Wyatt'];
+
+const pets = [...cats, ...dogs];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
