@@ -239,10 +239,19 @@
 
 
 
-const prerson = {
-    firstName: 'Vigo',
-    lastName: 'Mortensen',
-    fullName: function() {
-        return  `${this.firstName} ${this.lastName}`
-    }
+// const prerson = {
+//     firstName: 'Vigo',
+//     lastName: 'Mortensen',
+//     fullName: function() {
+//         return  `${this.firstName} ${this.lastName}`
+//     }
+// }
+
+function rolldie(num = 6){
+    return Math.ceil(Math.random() * num);
+}
+
+function greet(msg = 'Hey there', person='friend') {
+    console.log(`${msg}, ${person}`)
+
 }
