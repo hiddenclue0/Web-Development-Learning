@@ -271,23 +271,46 @@
 // const pets = [...cats, ...dogs];
 
 
-function sum(...number){
-    return number.reduce(((total, num) => total+num), 100 );
+// function sum(...number){
+//     return number.reduce(((total, num) => total+num), 100 );
+// }
+// const totalnum = sum(1,2,3,4);
+// console.log(totalnum);
+
+
+// function raceResult (gold, silver, ...everyOneElse){
+//     console.log(`Gold Medal Goes to: ${gold}`);
+//     console.log(`Silver Medal Goes to: ${silver}`);
+//     console.log(`And Thanks to: ${everyOneElse}`);
+// }
+
+const userInfo = {
+    email: 'hiddenclue0@gmail.com',
+    firstName: 'jakir',
+    lastName: 'Hosen',
+    born: 2000,
+    city: 'Dhaka',
+    state: 'Bangladesh'
 }
-const totalnum = sum(1,2,3,4);
-console.log(totalnum);
 
-
-function raceResult (gold, silver, ...everyOneElse){
-    console.log(`Gold Medal Goes to: ${gold}`);
-    console.log(`Silver Medal Goes to: ${silver}`);
-    console.log(`And Thanks to: ${everyOneElse}`);
+const user = {
+    email: 'hiddenclue0@gmail.com',
+    firstName: 'jakir',
+    lastName: 'Hosen',
+    born: 2000,
+    city: 'Dhaka',
+    state: 'Bangladesh'
 }
 
 
+function fullName(user){
+    const {firstName, lastName} = user;
+    return firstName + " " + lastName;
+}
 
-
-
+function fullNamedes({firstName, lastName}){
+    return firstName + " " + lastName;
+}
 
 
 
