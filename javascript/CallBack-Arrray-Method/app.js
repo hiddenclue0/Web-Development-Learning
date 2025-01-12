@@ -254,26 +254,35 @@
 // function greet(msg = 'Hey there', person='friend') {
 //     console.log(`${msg}, ${person}`)
 
-// }
+// // }
 
 
 
 
-const prices = [9.99, 1.5, 19.99, 49.99, 30.5];
+// const prices = [9.99, 1.5, 19.99, 49.99, 30.5];
 
-let mx = Math.max(...prices);
-let mn = Math.min(...prices);
-console.log(...prices);
+// let mx = Math.max(...prices);
+// let mn = Math.min(...prices);
+// console.log(...prices);
 
-const cats = ['Blue', 'Scout', 'Rocket'];
-const dogs = ['Rusty', 'Wyatt'];
+// const cats = ['Blue', 'Scout', 'Rocket'];
+// const dogs = ['Rusty', 'Wyatt'];
 
-const pets = [...cats, ...dogs];
-
-
+// const pets = [...cats, ...dogs];
 
 
+function sum(...number){
+    return number.reduce(((total, num) => total+num), 100 );
+}
+const totalnum = sum(1,2,3,4);
+console.log(totalnum);
 
+
+function raceResult (gold, silver, ...everyOneElse){
+    console.log(`Gold Medal Goes to: ${gold}`);
+    console.log(`Silver Medal Goes to: ${silver}`);
+    console.log(`And Thanks to: ${everyOneElse}`);
+}
 
 
 
